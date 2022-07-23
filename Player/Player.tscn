@@ -581,7 +581,7 @@ animation = "RollLeft"
 animation = "RollDown"
 
 [sub_resource type="AnimationNodeAnimation" id=46]
-animation = "AttackUp"
+animation = "RollUp"
 
 [sub_resource type="AnimationNodeAnimation" id=47]
 animation = "RollRight"
@@ -691,10 +691,10 @@ anims/RunUp = SubResource( 5 )
 tree_root = SubResource( 21 )
 anim_player = NodePath("../AnimationPlayer")
 parameters/playback = SubResource( 22 )
-parameters/Attack/blend_position = Vector2( -0.00172317, 1.09433 )
-parameters/Idle/blend_position = Vector2( -0.533017, 0.426036 )
-parameters/Roll/blend_position = Vector2( -0.998851, -0.00464141 )
-parameters/Run/blend_position = Vector2( -0.000431597, 0 )
+parameters/Attack/blend_position = Vector2( 0, 1 )
+parameters/Idle/blend_position = Vector2( 0, 1 )
+parameters/Roll/blend_position = Vector2( 0, 1 )
+parameters/Run/blend_position = Vector2( 0, 1 )
 
 [node name="HitboxPivot" type="Position2D" parent="."]
 position = Vector2( 0, -4 )
